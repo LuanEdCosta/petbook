@@ -11,12 +11,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 html {
   height: 100%;
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {

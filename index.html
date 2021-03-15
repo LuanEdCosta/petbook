@@ -13,6 +13,11 @@
       rel="stylesheet"
     />
 
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/button.css" />
@@ -33,9 +38,10 @@
         </div>
 
         <div class="navbar__links">
-          <a href="#" class="navbar__link">Feed</a>
+          <a href="#" class="navbar__link">Home</a>
           <a href="#" class="navbar__link">Search</a>
-          <a href="#" class="navbar__link">My Profile</a>
+          <a href="#" class="navbar__link">Profile</a>
+          <a href="#" class="navbar__link">Settings</a>
         </div>
       </nav>
 
@@ -57,20 +63,57 @@
 
         <main class="main">
           <article class="post">
-            <a href="#" class="post__author">
-              <span class="post__author-name">Charlotte</span>
-              <button type="button" class="button button--size-small">
-                Follow
-              </button>
-            </a>
-
             <img
               src="images/default.png"
               alt="Charlotte Post"
               class="post__image"
             />
 
-            <p class="post__description">I'm a superhero</p>
+            <div class="post__data">
+              <div class="post__actions">
+                <div class="post__action"><i class="bx bx-heart"></i></div>
+                <div class="post__action"><i class="bx bx-comment"></i></div>
+                <div class="post__action">
+                  <i class="bx bx-paper-plane"></i>
+                </div>
+                <div class="post__action post__action--align-end">
+                  <i class="bx bx-bookmark"></i>
+                </div>
+              </div>
+
+              <div class="post__description">
+                Today I'm a superhero. Maybe a super dog :)
+              </div>
+
+              <div class="post__comments">View all 6 comments</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <img
+              src="images/default.png"
+              alt="Charlotte Post"
+              class="post__image"
+            />
+
+            <div class="post__data">
+              <div class="post__actions">
+                <div class="post__action"><i class="bx bx-heart"></i></div>
+                <div class="post__action"><i class="bx bx-comment"></i></div>
+                <div class="post__action">
+                  <i class="bx bx-paper-plane"></i>
+                </div>
+                <div class="post__action post__action--align-end">
+                  <i class="bx bx-bookmark"></i>
+                </div>
+              </div>
+
+              <div class="post__description">
+                Today I'm a superhero. Maybe a super dog :)
+              </div>
+
+              <div class="post__comments">View all 6 comments</div>
+            </div>
           </article>
         </main>
 
