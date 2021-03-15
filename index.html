@@ -25,8 +25,8 @@
   </head>
 
   <body>
-    <div class="user-profile">
-      <nav class="navbar">
+    <nav class="navbar">
+      <div class="navbar__content">
         <div class="navbar__app-info">
           <img
             class="navbar__logo"
@@ -43,16 +43,37 @@
           <a href="#" class="navbar__link">Profile</a>
           <a href="#" class="navbar__link">Settings</a>
         </div>
-      </nav>
+      </div>
+    </nav>
 
+    <div class="user-profile">
       <div class="content">
         <aside class="user-data">
           <img src="images/default.png" alt="User" class="user-data__image" />
           <h1 class="user-data__name">Alfredo</h1>
-          <p class="user-data__bio">
+
+          <div class="user-data__bio">
             Alfredo is a good pet. He likes to play with plastic balls and eat
             shoes.
-          </p>
+          </div>
+
+          <div class="user-data__stats">
+            <div class="user-data__stats-text">
+              <strong class="user-data__stats-number">2</strong>
+              <span>Posts</span>
+            </div>
+
+            <div class="user-data__stats-text">
+              <strong class="user-data__stats-number">16</strong>
+              <span>Followers</span>
+            </div>
+
+            <div class="user-data__stats-text">
+              <strong class="user-data__stats-number">9</strong>
+              <span>Following</span>
+            </div>
+          </div>
+
           <button
             type="button"
             class="button button--accent button--full-width"
@@ -206,6 +227,10 @@
               </button>
             </div>
           </div>
+
+          <a href="#" class="follow-suggestions__see-all">
+            See All Followers
+          </a>
         </aside>
       </div>
 
