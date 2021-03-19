@@ -1,0 +1,55 @@
+.navbar {
+  height: 5.6rem;
+  width: 100%;
+  background: var(--background);
+  border-bottom: 1px solid var(--snow);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar__content {
+  height: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__app-info {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+}
+
+.navbar__app-name {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--accent);
+  margin-left: 1.6rem;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: var(--primary);
+  transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+}
+
+.navbar__link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}

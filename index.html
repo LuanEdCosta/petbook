@@ -21,30 +21,41 @@
 
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/global.css" />
+
+    <link rel="stylesheet" href="./css/page.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
     <link rel="stylesheet" href="./css/button.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/post.css" />
+
+    <link rel="stylesheet" href="./css/userProfile.css" />
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="navbar__content">
-        <div class="navbar__app-info">
-          <img class="navbar__logo" src="images/logo.png" alt="Petbook Logo" />
+    <div class="page">
+      <nav class="navbar">
+        <div class="navbar__content">
+          <div class="navbar__app-info">
+            <img
+              class="navbar__logo"
+              src="images/logo.png"
+              alt="Petbook Logo"
+            />
 
-          <div class="navbar__app-name">Petbook</div>
+            <div class="navbar__app-name">Petbook</div>
+          </div>
+
+          <div class="navbar__links">
+            <a href="#" class="navbar__link">Home</a>
+            <a href="#" class="navbar__link">Search</a>
+            <a href="#" class="navbar__link">Profile</a>
+            <a href="#" class="navbar__link">Settings</a>
+          </div>
         </div>
+      </nav>
 
-        <div class="navbar__links">
-          <a href="#" class="navbar__link">Home</a>
-          <a href="#" class="navbar__link">Search</a>
-          <a href="#" class="navbar__link">Profile</a>
-          <a href="#" class="navbar__link">Settings</a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="user-profile">
-      <div class="content">
+      <div class="page__content user-profile">
         <aside class="user-data">
           <img src="images/alfredo.jpg" alt="User" class="user-data__image" />
           <h1 class="user-data__name">Alfredo</h1>

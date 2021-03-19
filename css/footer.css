@@ -1,0 +1,16 @@
+.footer {
+  grid-area: footer;
+}
+
+.footer__project-creator {
+  text-align: center;
+}
+
+.footer__heart {
+  color: red;
+  font-size: 2rem;
+}
+
+.footer__creator-name {
+  color: var(--accent);
+}

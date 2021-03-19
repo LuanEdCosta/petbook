@@ -1,0 +1,9 @@
+{
+  "name": "petbook",
+  "description": "A social network for pets | Project created to study CSS BEM, SEO and Accessibility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LuanEdCosta/petbook.git",
+  "author": "Luan Eduardo da Costa",
+  "license": "MIT"
+}
