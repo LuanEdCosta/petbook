@@ -65,8 +65,96 @@ Why to write semantic HTML:
 `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
 Learn more about in the [W3Schools Website](https://www.w3schools.com/html/html5_semantic_elements.asp)
+See [This Video](https://youtu.be/naha1DIHK4E) to see real examples of semantic HTML
 
 ### 3. SEO
+
+SEO (Search Engine Optimization) is the process of improving a website to increase its visibility for relevant searches. With better visibility you gain more attention and could attract new and existing customers to your business.
+
+:thinking: **How to do that?**
+
+**1. Choose a good title for a page**
+
+Put the title into the `title HTML tag`
+
+```html
+<title>A Good Title</title>
+```
+
+**2. Write a good description in the description meta tag**
+
+```html
+<meta name="description" content="A good description" />
+```
+
+**3. Use header tags to segment your content**
+
+Headers make it easier for people to find what they're looking for quickly.
+
+- `<h1></h1>` – Usually reserved for webpage titles.
+- `<h2></h2>` – Highlights the topic of the title.
+- `<h3></h3>` – Reflects points in regards to the topic.
+- `<h4></h4>` – Supports points from `<h3>`.
+- `<h5></h5>` – Not often used, but great for supporting points of `<h4>`.
+
+**4. Add the alt property in images**
+
+The alt property is used to explain to the search engine what the image is about.
+
+```html
+<img src="images/image.png" alt="Explain the image here" />
+```
+
+**5. Open graph meta tags**
+
+It helps in boosting search and display abilities for social media.
+
+```html
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="My Website Name" />
+<meta property="og:description" content="A good description" />
+<meta name="og:title" property="og:title" content="The Page Title" />
+
+<meta property="og:image" content="https://www.website.com/images/image.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="600" />
+
+<!-- If your website is an article -->
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Article Author Name" />
+<meta property="article:section" content="Article Section" />
+<meta property="article:tag" content="Article tags separated by comma" />
+<meta property="article:published_time" content="Time" />
+
+<!-- If your website is a normal website -->
+<meta property="og:type" content="website" />
+```
+
+**6. Responsive site meta tags**
+
+It's crucial to have a mobile-friendly because Google puts emphasis on that and probably many people will use a mobile search to find your website.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+
+**7. Twitter card tags**
+
+Open graph isn't the only way to customize data for social media. Twitter has its own platform called "Cards".
+
+```html
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="A nice title" />
+<meta name="twitter:description" content="200 character description" />
+<meta name="twitter:url" content="https://www.yourdomain.com" />
+<meta name="twitter:image" content="https://www.yourdomain.com/image.jpg" />
+```
+
+Learn more about in these websites:
+
+- [The 10 Most Important HTML Tags You Need to Know for SEO](https://www.greengeeks.com/blog/html-tags-for-seo/)
+- [What You Need to Know About Open Graph Meta Tags for Total Facebook and Twitter Mastery](https://neilpatel.com/blog/open-graph-meta-tags/)
 
 ### 4. Accessibility
 

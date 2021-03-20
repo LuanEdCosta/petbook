@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/LuanEdCosta/petbook.git",
+  "homepage": "https://luanedcosta.github.io/petbook",
   "author": "Luan Eduardo da Costa",
   "license": "MIT"
 }
