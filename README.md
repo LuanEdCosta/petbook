@@ -6,6 +6,8 @@ But I created only the feed page because it will not be used for anyone, since i
 
 :point_right: **[CLICK HERE](https://luanedcosta.github.io/petbook/)** :point_left: to see the project working in your browser.
 
+<img src="website-preview.gif" height="400">
+
 ## :full_moon_with_face: Motivation
 
 This project was created to study the basic these things:
