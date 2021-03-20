@@ -132,6 +132,7 @@
           <button
             type="button"
             class="button button--accent button--full-width"
+            tabindex="0"
           >
             Follow
           </button>
@@ -147,18 +148,40 @@
 
             <section class="post__data">
               <div class="post__actions">
-                <div class="post__action"><i class="bx bx-heart"></i></div>
-                <div class="post__action"><i class="bx bx-comment"></i></div>
-                <div class="post__action">
+                <button class="post__action" type="button" aria-label="Curtir">
+                  <i class="bx bx-heart"></i>
+                </button>
+
+                <button
+                  class="post__action"
+                  type="button"
+                  aria-label="Comentar"
+                >
+                  <i class="bx bx-comment"></i>
+                </button>
+
+                <button
+                  class="post__action"
+                  type="button"
+                  aria-label="Compartilhar"
+                >
                   <i class="bx bx-paper-plane"></i>
-                </div>
-                <div class="post__action post__action--align-end">
+                </button>
+
+                <button
+                  class="post__action post__action--align-end"
+                  aria-label="Salvar nos Favoritos"
+                  type="button"
+                >
                   <i class="bx bx-bookmark"></i>
-                </div>
+                </button>
               </div>
 
               <div class="post__description">This is me watching TV.</div>
-              <div class="post__comments">View all 6 comments</div>
+
+              <button class="post__comments" type="button">
+                View all 6 comments
+              </button>
             </section>
           </article>
 
@@ -171,21 +194,42 @@
 
             <section class="post__data">
               <div class="post__actions">
-                <div class="post__action"><i class="bx bx-heart"></i></div>
-                <div class="post__action"><i class="bx bx-comment"></i></div>
-                <div class="post__action">
+                <button class="post__action" type="button" aria-label="Curtir">
+                  <i class="bx bx-heart"></i>
+                </button>
+
+                <button
+                  class="post__action"
+                  type="button"
+                  aria-label="Comentar"
+                >
+                  <i class="bx bx-comment"></i>
+                </button>
+
+                <button
+                  class="post__action"
+                  type="button"
+                  aria-label="Compartilhar"
+                >
                   <i class="bx bx-paper-plane"></i>
-                </div>
-                <div class="post__action post__action--align-end">
+                </button>
+
+                <button
+                  class="post__action post__action--align-end"
+                  aria-label="Salvar nos Favoritos"
+                  type="button"
+                >
                   <i class="bx bx-bookmark"></i>
-                </div>
+                </button>
               </div>
 
               <div class="post__description">
                 This is me resting on the chair.
               </div>
 
-              <div class="post__comments">View all 3 comments</div>
+              <button class="post__comments" type="button">
+                View all 3 comments
+              </button>
             </section>
           </article>
         </main>

@@ -101,10 +101,12 @@
   color: var(--primary);
   font-size: 1.4rem;
   text-decoration: none;
+  outline: none;
   transition: color 0.2s ease-in-out;
 }
 
-.follow-suggestions__see-all:hover {
+.follow-suggestions__see-all:hover,
+.follow-suggestions__see-all:focus {
   color: var(--accent);
 }
 
