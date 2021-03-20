@@ -23,9 +23,14 @@ BEM (Block Element Modifier) is a very simple methodology that allows you to wri
 
 :thinking: _So how to write it in a BEM way?_
 
-**1. BLOCK** - Standalone entity that is meaningful on its own
-**2. ELEMENT** - A part of a block that has no standalone meaning and is semantically tied to its block.
-**3. MODIFIER** - A flag on a block or element. Use them to change appearance or behavior.
+**1. BLOCK**
+Standalone entity that is meaningful on its own
+
+**2. ELEMENT**
+A part of a block that has no standalone meaning and is semantically tied to its block.
+
+**3. MODIFIER**
+A flag on a block or element. Use them to change appearance or behavior.
 
 Example:
 
