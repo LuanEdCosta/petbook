@@ -1,0 +1,156 @@
+.user-profile {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: minmax(25rem, 25%) 1fr minmax(25rem, 25%);
+  grid-template-areas: "userData main followSuggestions";
+  padding: 1.6rem;
+}
+
+.user-data {
+  grid-area: userData;
+}
+
+.user-data__image {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.user-data__name {
+  margin: 0;
+  margin-bottom: 0.8rem;
+}
+
+.user-data__bio {
+  margin-bottom: 0.8rem;
+  line-height: 2.4rem;
+  color: var(--secondary);
+}
+
+.user-data__stats {
+  margin-bottom: 2.4rem;
+}
+
+.user-data__stats-text {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.4rem;
+}
+
+.user-data__stats-number {
+  margin-right: 0.8rem;
+}
+
+.main {
+  grid-area: main;
+  padding: 0 3.2rem;
+}
+
+.follow-suggestions {
+  grid-area: followSuggestions;
+}
+
+.follow-suggestions__title {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.follow-suggestions__list {
+  margin-bottom: 0.8rem;
+}
+
+.follow-suggestion {
+  margin-bottom: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.follow-suggestion__image {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+}
+
+.follow-suggestion__data {
+  flex: 1;
+  padding: 0.1rem 0.8rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.follow-suggestion__name {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.follow-suggestion__bio {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+.follow-suggestions__see-all {
+  display: inline-block;
+  color: var(--primary);
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.follow-suggestions__see-all:hover {
+  color: var(--accent);
+}
+
+@media only screen and (max-width: 1000px) {
+  .user-profile {
+    grid-template-rows: 1fr auto;
+    grid-template-columns: minmax(25rem, 35%) 1fr;
+    grid-template-areas: "userData main" ". followSuggestions";
+  }
+
+  .main {
+    padding: 0;
+    padding-left: 1.6rem;
+  }
+
+  .follow-suggestions {
+    padding: 0 3.2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .user-profile {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "userData" "main" "followSuggestions";
+  }
+
+  .main {
+    padding: 0;
+    margin: 3.2rem 0 0.8rem 0;
+  }
+
+  .follow-suggestions {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+  }
+
+  .user-data__stats {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .user-data__stats-text:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+}

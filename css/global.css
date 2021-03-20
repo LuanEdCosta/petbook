@@ -1,0 +1,29 @@
+:root {
+  --accent: #2eb8b8;
+  --accent-dark: #29a3a3;
+  --primary: #333333;
+  --secondary: #666666;
+  --snow: #f2f2f2;
+  --hover: rgba(0, 0, 0, 0.1);
+  --background: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  color: var(--primary);
+  background: var(--background);
+  overflow-x: hidden;
+  height: 100%;
+}

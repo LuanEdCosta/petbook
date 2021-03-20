@@ -1,0 +1,31 @@
+.footer {
+  grid-area: footer;
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__project-creator {
+  text-align: center;
+}
+
+.footer__heart {
+  color: red;
+  font-size: 2rem;
+}
+
+.footer__creator-name {
+  color: var(--accent);
+}
+
+@media only screen and (max-width: 480px) {
+  .footer__project-creator {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__creator-name {
+    margin-top: 0.2rem;
+  }
+}

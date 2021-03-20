@@ -1,0 +1,16 @@
+.page {
+  display: grid;
+  grid-template-rows: 5.6rem 1fr 5.6rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "navbar"
+    "content"
+    "footer";
+}
+
+.page__content {
+  grid-area: content;
+
+  max-width: 120rem;
+  margin: 0 auto;
+}
