@@ -4,6 +4,8 @@ This project is a social network fot pets! :laughing: :laughing:
 
 But I created only the feed page because it will not be used for anyone, since it's only for study purposes.
 
+:point_right: **[CLICK HERE](https://luanedcosta.github.io/petbook)** :point_left: to see the project working in your browser.
+
 ## :full_moon_with_face: Motivation
 
 This project was created to study these things:
@@ -19,7 +21,7 @@ This project was created to study these things:
 
 BEM (Block Element Modifier) is a very simple methodology that allows you to write more maintainable, consistent and structured CSS styles.
 
-So how to write in a BEM way?
+:thinking: **So how to write it in a BEM way?**
 
 1. BLOCK - Standalone entity that is meaningful on its own
 2. ELEMENT - A part of a block that has no standalone meaning and is semantically tied to its block.
@@ -157,6 +159,8 @@ Learn more about in these websites:
 - [What You Need to Know About Open Graph Meta Tags for Total Facebook and Twitter Mastery](https://neilpatel.com/blog/open-graph-meta-tags/)
 
 ### 4. Accessibility
+
+---
 
 ## :man: Author
 

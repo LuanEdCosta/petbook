@@ -15,7 +15,8 @@
   transition: all 0.2s ease-in-out;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: var(--hover);
 }
 
@@ -38,6 +39,7 @@
   color: white;
 }
 
-.button--accent:hover {
+.button--accent:hover,
+.button--accent:focus {
   background: var(--accent-dark);
 }
