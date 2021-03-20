@@ -25,8 +25,10 @@ BEM (Block Element Modifier) is a very simple methodology that allows you to wri
 
 **1. BLOCK**
 Standalone entity that is meaningful on its own
+
 **2. ELEMENT**
 A part of a block that has no standalone meaning and is semantically tied to its block.
+
 **3. MODIFIER**
 A flag on a block or element. Use them to change appearance or behavior.
 
@@ -61,8 +63,10 @@ Why to write semantic HTML:
 
 **1. SEO:**
 Search Engines can be able to understand the meaning of the content.
+
 **2. Accessibility:**
 Screen readers can be able to understand the meaning of the content.
+
 **3. Maintainability:**
 Developers can understand easily the structure of the page.
 
