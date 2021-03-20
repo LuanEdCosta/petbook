@@ -212,6 +212,10 @@ ARIA roles and attributes provide more information or context about a website el
 **To learn more about see**:
 
 - [10 Ways to Make Your Website Accessible](https://www.dreamhost.com/blog/make-your-website-accessible/)
+- [9 Ways You Can Make Your Website More Accessible](https://www.searchenginejournal.com/make-website-more-accessible/347450/)
+- [Using ARIA: Roles, states, and properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+- [What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility)
+- [Using ARIA](https://www.w3.org/TR/using-aria/)
 
 ---
 
