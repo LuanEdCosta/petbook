@@ -1,6 +1,9 @@
 .footer {
   grid-area: footer;
   padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__project-creator {

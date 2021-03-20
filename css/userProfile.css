@@ -111,8 +111,13 @@
 @media only screen and (max-width: 1000px) {
   .user-profile {
     grid-template-rows: 1fr auto;
-    grid-template-columns: minmax(25rem, 25%) 1fr;
+    grid-template-columns: minmax(25rem, 35%) 1fr;
     grid-template-areas: "userData main" ". followSuggestions";
+  }
+
+  .main {
+    padding: 0;
+    padding-left: 1.6rem;
   }
 
   .follow-suggestions {
@@ -131,7 +136,7 @@
 
   .main {
     padding: 0;
-    margin: 3.2rem 0 1.6rem 0;
+    margin: 3.2rem 0 0.8rem 0;
   }
 
   .follow-suggestions {
