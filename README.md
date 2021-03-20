@@ -4,7 +4,7 @@ This project is a social network fot pets! :laughing: :laughing:
 
 But I created only the feed page because it will not be used for anyone, since it's only for study purposes.
 
-:point_right: **[CLICK HERE](https://luanedcosta.github.io/petbook)** :point_left: to see the project working in your browser.
+:point_right: **[CLICK HERE](https://luanedcosta.github.io/petbook/)** :point_left: to see the project working in your browser.
 
 ## :full_moon_with_face: Motivation
 
