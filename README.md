@@ -26,12 +26,15 @@ BEM (Block Element Modifier) is a very simple methodology that allows you to wri
 :thinking: _So how to write it in a BEM way?_
 
 **1. BLOCK**
+
 Standalone entity that is meaningful on its own
 
 **2. ELEMENT**
+
 A part of a block that has no standalone meaning and is semantically tied to its block.
 
 **3. MODIFIER**
+
 A flag on a block or element. Use them to change appearance or behavior.
 
 Example:
@@ -74,11 +77,12 @@ Developers can understand easily the structure of the page.
 
 **Examples of non-semantic elements:**
 `<div>` and `<span>` - Tells nothing about its content.
+
 **Examples of semantic elements:**
 `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
-Learn more about in the [W3Schools Website](https://www.w3schools.com/html/html5_semantic_elements.asp)
-See [This Video](https://youtu.be/naha1DIHK4E) to see real examples of semantic HTML
+- Learn more about in the [W3Schools Website](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- See [This Video](https://youtu.be/naha1DIHK4E) to see real examples of semantic HTML
 
 ### 3. SEO
 
