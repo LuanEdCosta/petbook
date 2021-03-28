@@ -179,12 +179,16 @@ There are a lot of disabilities and conditions that can affect the way people us
 
 - **Visual Impairment**
   This includes a partial or total inability to see or to perceive color contrasts.
+
 - **Hearing Impairment**
   Some users have a reduced ability to hear.
+
 - **Motor Skills/Physical Disabilities**
   Users may have difficulty moving parts of their bodies, including making precise movements (such as when using a mouse).
+
 - **Photosensitive Seizures**
   Conditions such as epilepsy can cause seizures that are often triggered by flashing lights.
+
 - **Cognitive Disabilities**
   There are also many conditions that affect cognitive ability, such as dementia and dyslexia.
 
