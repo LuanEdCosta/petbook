@@ -240,4 +240,4 @@ ARIA roles and attributes provide more information or context about a website el
 
 ## :man: Author
 
-Luan Eduardo da Costa | [Add me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
